@@ -1,0 +1,41 @@
+{
+  "name": "@haztivity/hz-thermoquiz",
+  "version": "0.7.0",
+  "description": "Recurso de haztivity encapsulando jq-thermoquiz",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haztivity/hz-soupletter"
+  },
+  "directories": {
+    "typings": "src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "index.ts",
+  "typings": "index.ts",
+  "author": "Davinchi",
+  "license": "MIT",
+  "homepage": "https://github.com/haztivity/hz-soupletter/",
+  "devDependencies": {
+    "@haztivity/cli": "^0.5.4",
+    "@haztivity/hz-navbar": "^0.7.7",
+    "@types/core-js": "^0.9.46",
+    "@types/jquery": "^3.3.1",
+    "@types/jqueryui": "^1.12.2",
+    "jstransformer-markdown-it": "^2.0.0",
+    "node-sass": "^4.11.0",
+    "prismjs": "^1.12.2",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@haztivity/core": "^0.7.18",
+    "jq-thermoquiz": "^1.0.0"
+  }
+}

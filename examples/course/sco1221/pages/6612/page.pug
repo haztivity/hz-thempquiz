@@ -1,0 +1,51 @@
+div
+    -
+        var options = {
+            horizontal: true,
+            topText:"Top text",
+            bottomText:"Bottom text",
+            value: 5,
+            thermometer: {
+                height: 400,
+                width: 400,
+                pathToSVG: "https://raw.githubusercontent.com/davedupplaw/jquery.thermometer/94b07aa6dbbe71b293a66b999bdb5abf1b078565/svg/thermo-bottom.svg",
+                liquidColour: (value) => {
+                let color;
+                if ( value < 4) {
+                    color = "#00bcd4";
+                } else if (value >=4 && value <= 8) {
+                    color = "#ffcb00";
+                } else {
+                    color = "#ff0000";
+                }
+                return color;
+                }
+            }
+        }
+    div(data-hz-resource="HzThermoquiz", data-opt-hz-thermoquiz-thermo = options)
+        div(data-thermoquiz-thermometer='')
+        ul(data-thermoquiz-options='')
+            li
+                label(for='o1') +5
+                input#o1(type='checkbox', data-thermoquiz-option='5')
+            li
+                label(for='o2') +4
+                input#o2(type='checkbox', data-thermoquiz-option='4')
+            li
+                label(for='o3') +2
+                input#o3(type='checkbox', data-thermoquiz-option='2')
+            li
+                label(for='o4') -5
+                input#o4(type='checkbox', data-thermoquiz-option='-5')
+            li
+                label(for='o5') -4
+                input#o5(type='checkbox', data-thermoquiz-option='-4')
+            li
+                label(for='o6') -2
+                input#o6(type='checkbox', data-thermoquiz-option='-2')
+        button(data-thermoquiz-check='') Check answers
+        div(data-thermoquiz-feedback='')
+            p(data-thermoquiz-feedback-item='10,7') Feedback 10-7
+            p(data-thermoquiz-feedback-item='6,4') Feedback 6-4
+            p(data-thermoquiz-feedback-item='3,0') Feedback 3-0
+

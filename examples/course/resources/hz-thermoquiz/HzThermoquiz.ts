@@ -1,0 +1,1 @@
+export {HzThermoquizResource} from "./HzThermoquizResource";
