@@ -2,8 +2,8 @@
   "name": "@haztivity/hz-thermoquiz",
   "version": "0.7.1",
   "description": "Recurso de haztivity encapsulando jq-thermoquiz",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "dist/HzThermoQuiz.js",
+  "module": "dist/HzThermoQuiz.js",
   "scripts": {
     "build": "tsc -p src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "types": "index.ts",
-  "typings": "index.ts",
+  "types": "src/HzThermoQuiz.ts",
+  "typings": "src/HzThermoQuiz.ts",
   "author": "Davinchi",
   "license": "MIT",
   "homepage": "https://github.com/haztivity/hz-thermoquiz/",
