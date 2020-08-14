@@ -5,7 +5,7 @@
 import {Resource,ResourceController,$,EventEmitterFactory,ScormService,NavigatorService} from "@haztivity/core";
 @Resource(
     {
-        name:"HzSoupLetter",
+        name:"HzThermoQuiz",
         dependencies:[
             $,
             EventEmitterFactory,
