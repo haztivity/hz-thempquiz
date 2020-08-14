@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/haztivity/hz-soupletter"
+    "url": "https://github.com/haztivity/hz-thermoquiz"
   },
   "directories": {
     "typings": "src"
@@ -22,7 +22,7 @@
   "typings": "index.ts",
   "author": "Davinchi",
   "license": "MIT",
-  "homepage": "https://github.com/haztivity/hz-soupletter/",
+  "homepage": "https://github.com/haztivity/hz-thermoquiz/",
   "devDependencies": {
     "@haztivity/cli": "^0.5.4",
     "@haztivity/hz-navbar": "^0.7.7",
