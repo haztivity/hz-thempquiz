@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.2](https://github.com/haztivity/hz-thermoquiz/compare/v0.7.1...v0.7.2) (2020-08-14)
+
+
+### Bug Fixes
+
+* distribution bundle ([c62fb2e](https://github.com/haztivity/hz-thermoquiz/commit/c62fb2e77cfd8f85f0ec848d492bb04b186c9968))
+
 ### [0.7.1](https://github.com/haztivity/hz-thermoquiz/compare/v0.7.0...v0.7.1) (2020-08-14)
 
 

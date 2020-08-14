@@ -1,6 +1,6 @@
 {
   "name": "@haztivity/hz-thermoquiz",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Recurso de haztivity encapsulando jq-thermoquiz",
   "main": "dist/HzThermoQuiz.js",
   "module": "dist/HzThermoQuiz.js",
